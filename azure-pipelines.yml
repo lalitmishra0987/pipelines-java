@@ -15,6 +15,7 @@ steps:
   inputs:
     versionSpec: '8'
     cleanDestinationDirectory: true
+    jdkArchitectureOption: 'x64'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
