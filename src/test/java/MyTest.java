@@ -1,4 +1,7 @@
 import com.microsoft.demo.Demo;
+
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 
 public class MyTest {
@@ -15,5 +18,6 @@ public class MyTest {
 
         boolean result = false;
         if(y == 5) result = true;
+        assertTrue(result);
     }
 }
