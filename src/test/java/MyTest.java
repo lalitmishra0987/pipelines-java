@@ -1,6 +1,5 @@
 import com.microsoft.demo.Demo;
 import org.junit.Test;
-import static org.junit.;
 
 public class MyTest {
     @Test
