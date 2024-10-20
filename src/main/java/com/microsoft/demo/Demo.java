@@ -9,4 +9,9 @@ public class Demo {
 
         System.out.println("I am not covered");
     }
+
+    public int addNumbers(int a, int b){
+        int result = a+b;
+        return result;
+    }
 }

@@ -1,5 +1,6 @@
 import com.microsoft.demo.Demo;
 import org.junit.Test;
+import org.junit.Assert.*;
 
 public class MyTest {
     @Test
@@ -9,6 +10,12 @@ public class MyTest {
     }
 
     @Test
-    public void test_method_2() {
+    public void checkAddFunction() {
+        Demo d  = new Demo();
+        int y = d.addNumbers(2, 3);
+
+        boolean result = false;
+        if(y == 5) result = true;
+        assertTrue(result, "Value should be equal to 5");
     }
 }
