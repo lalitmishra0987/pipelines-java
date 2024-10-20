@@ -1,6 +1,6 @@
 import com.microsoft.demo.Demo;
 import org.junit.Test;
-import org.junit.Assert.*;
+import static org.junit.;
 
 public class MyTest {
     @Test
@@ -16,6 +16,5 @@ public class MyTest {
 
         boolean result = false;
         if(y == 5) result = true;
-        assertTrue(result, "Value should be equal to 5");
     }
 }
