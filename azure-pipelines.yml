@@ -25,4 +25,3 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'navyaapp-artifact'
     publishLocation: 'Container'
-    StoreAsTar: true
