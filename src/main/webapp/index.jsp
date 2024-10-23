@@ -1,5 +1,5 @@
 <html>
     <body>
-        <h2>Hello Navya!!!!!</h2>
+        <h2>Hello Navya and Rishu!!!!!</h2>
     </body>
 </html>
